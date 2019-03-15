@@ -1,10 +1,9 @@
-.form-label {
-  display: block;
+.login-form {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
-.form-submit {
-  display: block;
-  background: #2ecc40;
-  color: #eee;
-  padding: 10px 30px;
-  border-radius: 10px;
+.submit-button {
+  width:250px;
+  align-self: center;
 }
